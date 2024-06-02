@@ -14,3 +14,6 @@ jobs:
 
     - name: Run a test
       run: echo "done"
+
+    - name: Error checking
+      run: echo "failed to run."; exit 1
